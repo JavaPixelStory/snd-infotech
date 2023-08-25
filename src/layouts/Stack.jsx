@@ -18,7 +18,7 @@ const Stack = () => (
           <img
             src={lang.logo}
             alt='lang_logo'
-            className='sm:h-[70px] h-[100px] object-contain'
+            className='sm:h-[70px] h-[50px] object-contain'
           />
         </div>
       ))}
@@ -35,7 +35,7 @@ const Stack = () => (
           <img
             src={lang.logo}
             alt='lang_logo'
-            className='sm:h-[70px] h-[100px] object-contain'
+            className='sm:h-[70px] h-[50px] object-contain'
           />
         </div>
       ))}
@@ -52,7 +52,7 @@ const Stack = () => (
           <img
             src={lang.logo}
             alt='lang_logo'
-            className='sm:h-[70px] h-[100px] object-contain'
+            className='sm:h-[70px] h-[50px] object-contain'
           />
         </div>
       ))}
@@ -69,7 +69,7 @@ const Stack = () => (
           <img
             src={lang.logo}
             alt='lang_logo'
-            className='sm:h-[70px] h-[100px] object-contain'
+            className='sm:h-[70px] h-[50px] object-contain'
           />
         </div>
       ))}

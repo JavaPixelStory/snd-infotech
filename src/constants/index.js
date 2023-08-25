@@ -183,65 +183,52 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: 'Useful Links',
+    title: 'Контакты',
     links: [
       {
-        name: 'Content',
+        name: 'Адрес: 117246, г. Москва, Научный проезд, д. 17, этаж 9, помещение 9-35',
         link: 'https://www.hoobank.com/content/',
       },
       {
-        name: 'How it Works',
-        link: 'https://www.hoobank.com/how-it-works/',
+        name: 'e-mail: sendysoft@yandex.ru',
+        link: 'sendysoft@yandex.ru',
       },
       {
-        name: 'Create',
-        link: 'https://www.hoobank.com/create/',
-      },
-      {
-        name: 'Explore',
-        link: 'https://www.hoobank.com/explore/',
-      },
-      {
-        name: 'Terms & Services',
-        link: 'https://www.hoobank.com/terms-and-services/',
+        name: 'тел.: 89776980206',
+        link: '89776980206',
       },
     ],
   },
   {
-    title: 'Community',
+    title: 'Реквизиты',
     links: [
       {
-        name: 'Help Center',
+        name: 'ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СЭНДИ СОФТ"',
         link: 'https://www.hoobank.com/help-center/',
       },
       {
-        name: 'Partners',
+        name: 'ИНН: 9728066148',
         link: 'https://www.hoobank.com/partners/',
       },
       {
-        name: 'Suggestions',
+        name: 'КПП: 772801001',
         link: 'https://www.hoobank.com/suggestions/',
       },
       {
-        name: 'Blog',
+        name: 'Банк: МОСКОВСКИЙ ФИЛИАЛ АО КБ "МОДУЛЬБАНК"g',
         link: 'https://www.hoobank.com/blog/',
       },
       {
-        name: 'Newsletters',
+        name: 'БИК: 044525092',
         link: 'https://www.hoobank.com/newsletters/',
       },
-    ],
-  },
-  {
-    title: 'Partner',
-    links: [
       {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
+        name: 'Счёт №: 40702810870010340242',
+        link: 'https://www.hoobank.com/newsletters/',
       },
       {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
+        name: 'к/с №: 30101810645250000092',
+        link: 'https://www.hoobank.com/newsletters/',
       },
     ],
   },
