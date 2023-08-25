@@ -1,15 +1,26 @@
 import {
   facebook,
   linkedin,
-  send,
+  // send,
   star,
   // service1,
   // service2,
   service3,
   go,
   java,
-  php,
+  html,
+  css,
+  js,
+  swift,
+  kotlin,
+  // postgre,
+  mongodb,
   postgre,
+  grpc,
+  nats,
+  rabbit,
+  revel,
+  react,
 } from '../assets';
 
 export const navLinks = [
@@ -43,7 +54,7 @@ export const services = [
   {
     id: 'service-1',
     icon: service3,
-    text: 'IT-аутсорсинг',
+    text: 'IT - аутсорсинг',
   },
   {
     id: 'service-2',
@@ -58,7 +69,7 @@ export const services = [
   {
     id: 'service-4',
     icon: service3,
-    text: 'Разработка и кастомизация Web-сервисов и приложений',
+    text: 'Разработка и кастомизация Web - сервисов и приложений',
   },
   {
     id: 'service-5',
@@ -68,7 +79,7 @@ export const services = [
   {
     id: 'service-6',
     icon: service3,
-    text: 'Разработка чат-ботов для бизнеса',
+    text: 'Разработка чат - ботов для бизнеса',
   },
   {
     id: 'service-7',
@@ -81,16 +92,23 @@ export const projects = [
   {
     id: 'feature-1',
     icon: star,
-    title: 'QR-way',
+    title: 'QR - way',
     content:
       'Сервис предназначен для формирования гражданами уникального QR-кода для перемещения по городу.',
   },
   {
     id: 'feature-2',
-    icon: send,
+    icon: star,
     title: 'Sendy Loyalty',
     content:
       'Система для управления программами лояльности клиентов. Единый QR код для совершения платежных операций и механики лояльности. Информационная система E-Comm - Сервис предоставляет юридическим лицам возможность осуществления торговых операций в интернете.',
+  },
+  {
+    id: 'feature-2',
+    icon: star,
+    title: 'E - Comm',
+    content:
+      'Сервис предоставляет юридическим лицам возможность осуществления торговых операций в интернете.',
   },
 ];
 
@@ -242,21 +260,82 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const stackLang = [
   {
-    id: 'client-1',
+    id: 'lang-1',
     logo: go,
   },
   {
-    id: 'client-2',
+    id: 'lang-2',
     logo: java,
   },
   {
-    id: 'client-3',
-    logo: php,
+    id: 'lang-3',
+    logo: html,
   },
   {
-    id: 'client-4',
+    id: 'lang-4',
+    logo: css,
+  },
+  {
+    id: 'lang-5',
+    logo: js,
+  },
+  {
+    id: 'lang-6',
+    logo: swift,
+  },
+  {
+    id: 'lang-7',
+    logo: kotlin,
+  },
+];
+
+export const stackBD = [
+  {
+    id: 'bd-1',
     logo: postgre,
+  },
+  {
+    id: 'bd-2',
+    logo: mongodb,
+  },
+];
+
+export const stackFrame = [
+  {
+    id: 'frame-1',
+    logo: grpc,
+  },
+  {
+    id: 'frame-2',
+    logo: nats,
+  },
+  {
+    id: 'frame-3',
+    logo: revel,
+  },
+  {
+    id: 'frame-4',
+    logo: rabbit,
+  },
+  {
+    id: 'frame-5',
+    logo: react,
+  },
+];
+
+export const stackMobile = [
+  {
+    id: 'lang-2',
+    logo: java,
+  },
+  {
+    id: 'lang-6',
+    logo: swift,
+  },
+  {
+    id: 'lang-7',
+    logo: kotlin,
   },
 ];

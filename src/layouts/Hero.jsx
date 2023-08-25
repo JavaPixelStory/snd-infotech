@@ -95,7 +95,7 @@ const Hero = () => {
           viewport={{ once: false, amount: 0.1 }}
           src={cardTop}
           alt='billing'
-          className=' sm:w-[400px] sm:h-[251px] absolute z-[50] bottom-[21rem] mr-[15rem]'
+          className='sm:w-[400px] sm:h-[251px] absolute z-[50] bottom-[21rem] mr-[15rem]'
         />
         <motion.img
           variants={fadeIn('down', 0.5)}
