@@ -30,7 +30,7 @@ const Hero = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.1 }}
-            className='flex-1 font-sndLight text-[32px] leading-[44px] sm:text-[55px] sm:leading-[55px] md:text-[75px] md:leading-[75px] text-white'
+            className='flex-1 font-sndLight text-[36px] leading-[44px] sm:text-[55px] sm:leading-[55px] md:text-[75px] md:leading-[75px] text-white'
           >
             Создаем <br className='sm:block hidden' /> информационные
             <br className='sm:block hidden' /> системы любой сложности
