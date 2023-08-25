@@ -1,16 +1,16 @@
-import styles from './style'
-import GoUp from './components/GoUp'
+import styles from './style';
+import GoUp from './components/GoUp';
 import {
   Navbar,
   Hero,
-  Stats,
+  // Stats,
   Services,
   Projects,
   HowWork,
   Stack,
   Footer,
   About,
-} from './layouts'
+} from './layouts';
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
@@ -29,7 +29,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats />
+        {/* <Stats /> */}
         <Projects />
         <Services />
         <HowWork />
@@ -39,6 +39,6 @@ const App = () => (
       </div>
     </div>
   </div>
-)
+);
 
-export default App
+export default App;

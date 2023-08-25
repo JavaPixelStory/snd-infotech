@@ -1,6 +1,6 @@
-import { card } from '../assets'
-import { layout } from '../style'
-import TitleAndText from '../components/TitleAndText'
+import { card } from '../assets';
+import { layout } from '../style';
+import TitleAndText from '../components/TitleAndText';
 
 const About = () => (
   <section className={`${layout.section} relative`} id='about'>
@@ -9,14 +9,14 @@ const About = () => (
     <TitleAndText
       title={'О компании'}
       text={
-        'СКЭНД — IT-компания, которая занимается разработкой программного обеспечения с 2000 года и оказывает широкий спектр аутсорсинговых услуг в сфере IT. Сегодня в СКЭНД работает 250+ специалистов с большим багажом знаний и навыков, а также опытом разработки программ для различных индустрий. Наша миссия — помочь компаниям сократить расходы на разработку ПО и ускорить вывод их продуктов на рынок.'
+        'Sendy -  команда увлеченных профессионалов, с 2014 создающих и развивающих IT продукты. Собственный центр разработки, многолетний опыт и гибкий подход позволяют нам создавать уникальные продукты под любые корпоративные и коммерческие задачи. Мы предоставляем нашим клиентам уникальные решения, а также создаем комплексные экосистемы, приложения и сервисы.'
       }
     />
 
     <div className={layout.sectionImg}>
-      <img src={card} alt='billing' className='w-[100%] h-[100%]' />
+      <img src={card} alt='billing' className='w-[90%] h-[90%] ml-8' />
     </div>
   </section>
-)
+);
 
-export default About
+export default About;

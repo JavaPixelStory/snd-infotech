@@ -1,6 +1,6 @@
-import styles from '../style'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
+import styles from '../style';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
 import {
   robot,
   robotHand,
@@ -11,7 +11,7 @@ import {
   ballMid,
   ballSmal,
   ballLitle,
-} from '../assets'
+} from '../assets';
 
 const Hero = () => {
   return (
@@ -30,10 +30,10 @@ const Hero = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.1 }}
-            className='flex-1 font-sndLight text-[36px] leading-[44px] sm:text-[55px] sm:leading-[55px] md:text-[95px] md:leading-[95px] text-white'
+            className='flex-1 font-sndLight text-[32px] leading-[44px] sm:text-[55px] sm:leading-[55px] md:text-[75px] md:leading-[75px] text-white'
           >
             Создаем <br className='sm:block hidden' /> информационные
-            <br className='sm:block hidden' /> системы
+            <br className='sm:block hidden' /> системы любой сложности
             <span className='text-gradient font-sndBold'>.</span>{' '}
           </motion.h1>
         </div>
@@ -42,10 +42,10 @@ const Hero = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.7 }}
-          className={`${styles.paragraph} font-sndLight max-w-[470px] mt-5`}
+          className={`${styles.paragraph} font-sndLight max-w-[550px] mt-5`}
         >
-          Под любые корпоративные и коммерческие задачи. Интегрируем сторонние
-          сервисы.
+          Веб-сервисы, мобильные приложения, информационные системы под любые
+          корпоративные и коммерческие задачи.
         </motion.p>
       </div>
 
@@ -152,7 +152,7 @@ const Hero = () => {
         {/* gradient end */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

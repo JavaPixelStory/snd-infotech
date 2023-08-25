@@ -1,7 +1,7 @@
-import { services } from '../constants'
-import { layout } from '../style'
-import TitleAndText from '../components/TitleAndText'
-import ServicesCard from '../components/ServicesCard'
+import { services } from '../constants';
+import { layout } from '../style';
+import TitleAndText from '../components/TitleAndText';
+import ServicesCard from '../components/ServicesCard';
 
 const Services = () => (
   <section
@@ -12,7 +12,7 @@ const Services = () => (
 
     <TitleAndText
       title='Услуги'
-      text='С 2001 года компания создает надежные IT-продукты и решения. Среди них — разработка систем, приложений, облачных и мобильных сервисов enterprise уровня. Sendy входит в список крупнейших IT компаний России и мировой рейтинг Software 500, занимает 4 место среди лучших разработчиков мобильных приложений России согласно рейтингу GoodFirms.'
+      text='Мы предоставляем нашим клиентам самые инновационные, надежные и безопасные технологии в сфере финансовых услуг и платежных решений.'
     />
     <div className={`flex-col ml-0 gap-10 relative`}>
       {services.map((service, index) => (
@@ -20,6 +20,6 @@ const Services = () => (
       ))}
     </div>
   </section>
-)
+);
 
-export default Services
+export default Services;

@@ -1,19 +1,16 @@
-import { projects } from '../constants'
-import styles, { layout } from '../style'
-import TitleAndText from '../components/TitleAndText'
-import ProjectsCard from '../components/ProjectsCard'
+import { projects } from '../constants';
+import styles, { layout } from '../style';
+import TitleAndText from '../components/TitleAndText';
+import ProjectsCard from '../components/ProjectsCard';
 const Projects = () => (
   <section
     id='projects'
     className={`${layout.section} gap-6 justify-between lg:flex-row-reverse`}
   >
     <TitleAndText
-      title={`Реализованные проекты`}
-      text='С 2001 года компания создает надежные IT-продукты и решения. Среди них —
-        разработка систем, приложений, облачных и мобильных сервисов enterprise
-        уровня. Sendy входит в список крупнейших IT компаний России и мировой
-        рейтинг Software 500, занимает 4 место среди лучших разработчиков
-        мобильных приложений России согласно рейтингу GoodFirms.'
+      title={`Примеры реализованных проектов:`}
+      text='Sendy реализует проекты по разработке программного обеспечения для операционных сред *nix, Windows, WEB и мобильных приложений. Для создания приложений в компании используются современные языки, технологии программирования и производственные процессы.
+      '
     />
 
     <div className={`flex-1 flex ${styles.flexStart}  mt-0  relative flex-col`}>
@@ -22,6 +19,6 @@ const Projects = () => (
       ))}
     </div>
   </section>
-)
+);
 
-export default Projects
+export default Projects;

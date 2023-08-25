@@ -1,19 +1,16 @@
 import {
   facebook,
-  instagram,
   linkedin,
-  twitter,
   send,
-  shield,
   star,
-  service1,
-  service2,
+  // service1,
+  // service2,
   service3,
   go,
   java,
   php,
   postgre,
-} from '../assets'
+} from '../assets';
 
 export const navLinks = [
   {
@@ -40,17 +37,17 @@ export const navLinks = [
     id: 'contacts',
     title: 'Контакты',
   },
-]
+];
 
 export const services = [
   {
     id: 'service-1',
-    icon: service1,
+    icon: service3,
     text: 'IT-аутсорсинг',
   },
   {
     id: 'service-2',
-    icon: service2,
+    icon: service3,
     text: 'Дизайн и разработка информационных систем',
   },
   {
@@ -60,12 +57,12 @@ export const services = [
   },
   {
     id: 'service-4',
-    icon: service1,
+    icon: service3,
     text: 'Разработка и кастомизация Web-сервисов и приложений',
   },
   {
     id: 'service-5',
-    icon: service2,
+    icon: service3,
     text: 'Разработка и кастомизация интернет-магазинов',
   },
   {
@@ -75,10 +72,10 @@ export const services = [
   },
   {
     id: 'service-7',
-    icon: service1,
+    icon: service3,
     text: 'Техническое сопровождение информационных систем',
   },
-]
+];
 
 export const projects = [
   {
@@ -86,23 +83,16 @@ export const projects = [
     icon: star,
     title: 'QR-way',
     content:
-      'The best credit cards offer some tantalizing combinations of promotions and prizes',
+      'Сервис предназначен для формирования гражданами уникального QR-кода для перемещения по городу.',
   },
   {
     id: 'feature-2',
-    icon: shield,
-    title: 'Система лояльности Sendy Loyalty',
-    content:
-      'We take proactive steps make sure your information and transactions are secure.',
-  },
-  {
-    id: 'feature-3',
     icon: send,
-    title: 'Информационная система E-com',
+    title: 'Sendy Loyalty',
     content:
-      'A balance transfer credit card can save you a lot of money in interest charges.',
+      'Система для управления программами лояльности клиентов. Единый QR код для совершения платежных операций и механики лояльности. Информационная система E-Comm - Сервис предоставляет юридическим лицам возможность осуществления торговых операций в интернете.',
   },
-]
+];
 
 export const pipline = [
   {
@@ -110,14 +100,14 @@ export const pipline = [
     title: 'Аналитика',
     content:
       'На первом этапе мы тщательно анализируем требования Заказчика, исследуем рынок и конкурентов, определяем цель, потребности и функциональность проекта.',
-    img: service1,
+    img: service3,
   },
   {
     id: 'pipline-2',
     title: 'Дизайн',
     content:
       'На втором этапе разрабатываем дизайн будущей информационной системы и формируем техническое задание.',
-    img: service2,
+    img: service3,
   },
   {
     id: 'pipline-3',
@@ -153,7 +143,7 @@ export const pipline = [
       'Обеспечиваем техническую поддержку готовой системы, а также, при необходимости развиваем и добавляем новую функциональность проекту.',
     img: service3,
   },
-]
+];
 
 export const stats = [
   {
@@ -171,7 +161,7 @@ export const stats = [
     title: 'Специалистов',
     value: '180+',
   },
-]
+];
 
 export const footerLinks = [
   {
@@ -237,30 +227,20 @@ export const footerLinks = [
       },
     ],
   },
-]
+];
 
 export const socialMedia = [
-  {
-    id: 'social-media-1',
-    icon: instagram,
-    link: 'https://www.instagram.com/',
-  },
   {
     id: 'social-media-2',
     icon: facebook,
     link: 'https://www.facebook.com/',
   },
   {
-    id: 'social-media-3',
-    icon: twitter,
-    link: 'https://www.twitter.com/',
-  },
-  {
     id: 'social-media-4',
     icon: linkedin,
     link: 'https://www.linkedin.com/',
   },
-]
+];
 
 export const clients = [
   {
@@ -279,4 +259,4 @@ export const clients = [
     id: 'client-4',
     logo: postgre,
   },
-]
+];
