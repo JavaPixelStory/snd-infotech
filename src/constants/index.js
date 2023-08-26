@@ -1,10 +1,7 @@
 import {
   facebook,
   linkedin,
-  // send,
   star,
-  // service1,
-  // service2,
   service3,
   go,
   java,
@@ -193,7 +190,7 @@ export const footerLinks = [
         link: 'sendysoft@yandex.ru',
       },
       {
-        name: 'тел.: 89776980206',
+        name: 'тел.: +7 925 750 43 69',
         link: '89776980206',
       },
     ],

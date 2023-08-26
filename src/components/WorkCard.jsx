@@ -1,5 +1,5 @@
 const WorkCard = ({ content, title, img }) => (
-  <div className='flex justify-start flex-col px-10 py-10 rounded-[20px]  w-[400px] feedback-card'>
+  <div className='flex justify-start flex-col px-10 py-10 rounded-[20px]  w-[310px] feedback-card'>
     <img
       src={img}
       alt='double_quotes'
