@@ -1,5 +1,5 @@
 const WorkCard = ({ content, title, img }) => (
-  <div className='flex justify-start flex-col px-10 py-10 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card'>
+  <div className='flex justify-start flex-col px-10 py-10 rounded-[20px]  w-[400px] feedback-card'>
     <img
       src={img}
       alt='double_quotes'
@@ -18,6 +18,6 @@ const WorkCard = ({ content, title, img }) => (
       {content}
     </p>
   </div>
-)
+);
 
-export default WorkCard
+export default WorkCard;

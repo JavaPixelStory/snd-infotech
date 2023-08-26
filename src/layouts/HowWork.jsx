@@ -13,7 +13,7 @@ const HowWork = () => (
       <h2 className={styles.heading2}>Как мы работаем</h2>
     </div>
 
-    <div className='flex flex-wrap sm:justify-center justify-start w-full feedback-container relative z-[1]'>
+    <div className='flex flex-wrap justify-between w-full gap-6 feedback-container relative z-[1]'>
       {pipline.map((card) => (
         <WorkCard key={card.id} {...card} />
       ))}
