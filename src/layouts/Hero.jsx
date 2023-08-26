@@ -34,7 +34,6 @@ const Hero = () => {
           >
             Создаем <br className='sm:block hidden' /> информационные
             <br className='sm:block hidden' /> системы любой сложности
-            <span className='text-gradient font-sndBold'>.</span>{' '}
           </motion.h1>
         </div>
         <motion.p
