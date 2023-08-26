@@ -1,6 +1,6 @@
-import { pipline } from '../constants'
-import styles from '../style'
-import WorkCard from '../components/WorkCard'
+import { pipline } from '../constants';
+import styles from '../style';
+import WorkCard from '../components/WorkCard';
 
 const HowWork = () => (
   <section
@@ -13,12 +13,12 @@ const HowWork = () => (
       <h2 className={styles.heading2}>Как мы работаем</h2>
     </div>
 
-    <div className='flex flex-wrap sm:justify-between justify-start w-full feedback-container relative z-[1]'>
+    <div className='flex flex-wrap sm:justify-center justify-start w-full feedback-container relative z-[1]'>
       {pipline.map((card) => (
         <WorkCard key={card.id} {...card} />
       ))}
     </div>
   </section>
-)
+);
 
-export default HowWork
+export default HowWork;

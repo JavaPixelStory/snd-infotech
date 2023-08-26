@@ -13,7 +13,6 @@ import {
   js,
   swift,
   kotlin,
-  // postgre,
   mongodb,
   postgre,
   grpc,
@@ -101,7 +100,7 @@ export const projects = [
     icon: star,
     title: 'Sendy Loyalty',
     content:
-      'Система для управления программами лояльности клиентов. Единый QR код для совершения платежных операций и механики лояльности. Информационная система E-Comm - Сервис предоставляет юридическим лицам возможность осуществления торговых операций в интернете.',
+      'Система для управления программами лояльности клиентов. Единый QR код для совершения платежных операций и механики лояльности.',
   },
   {
     id: 'feature-2',
@@ -199,39 +198,6 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: 'Реквизиты',
-    links: [
-      {
-        name: 'ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "СЭНДИ СОФТ"',
-        link: 'https://www.hoobank.com/help-center/',
-      },
-      {
-        name: 'ИНН: 9728066148',
-        link: 'https://www.hoobank.com/partners/',
-      },
-      {
-        name: 'КПП: 772801001',
-        link: 'https://www.hoobank.com/suggestions/',
-      },
-      {
-        name: 'Банк: МОСКОВСКИЙ ФИЛИАЛ АО КБ "МОДУЛЬБАНК"g',
-        link: 'https://www.hoobank.com/blog/',
-      },
-      {
-        name: 'БИК: 044525092',
-        link: 'https://www.hoobank.com/newsletters/',
-      },
-      {
-        name: 'Счёт №: 40702810870010340242',
-        link: 'https://www.hoobank.com/newsletters/',
-      },
-      {
-        name: 'к/с №: 30101810645250000092',
-        link: 'https://www.hoobank.com/newsletters/',
-      },
-    ],
-  },
 ];
 
 export const socialMedia = [
@@ -247,82 +213,61 @@ export const socialMedia = [
   },
 ];
 
-export const stackLang = [
+export const stack = [
   {
-    id: 'lang-1',
+    id: 'stack-1',
     logo: go,
   },
   {
-    id: 'lang-2',
+    id: 'stack-2',
     logo: java,
   },
   {
-    id: 'lang-3',
+    id: 'stack-3',
     logo: html,
   },
   {
-    id: 'lang-4',
+    id: 'stack-4',
     logo: css,
   },
   {
-    id: 'lang-5',
+    id: 'stack-5',
     logo: js,
   },
   {
-    id: 'lang-6',
+    id: 'stack-6',
     logo: swift,
   },
   {
-    id: 'lang-7',
+    id: 'stack-7',
     logo: kotlin,
   },
-];
-
-export const stackBD = [
   {
-    id: 'bd-1',
+    id: 'stack-8',
     logo: postgre,
   },
   {
-    id: 'bd-2',
+    id: 'stack-9',
     logo: mongodb,
   },
-];
-
-export const stackFrame = [
   {
-    id: 'frame-1',
+    id: 'stack-10',
     logo: grpc,
   },
   {
-    id: 'frame-2',
+    id: 'stack-12',
     logo: nats,
   },
   {
-    id: 'frame-3',
+    id: 'stack-13',
     logo: revel,
   },
   {
-    id: 'frame-4',
+    id: 'stack-14',
     logo: rabbit,
   },
   {
-    id: 'frame-5',
+    id: 'stack-15',
     logo: react,
-  },
-];
-
-export const stackMobile = [
-  {
-    id: 'lang-2',
-    logo: java,
-  },
-  {
-    id: 'lang-6',
-    logo: swift,
-  },
-  {
-    id: 'lang-7',
-    logo: kotlin,
   },
 ];

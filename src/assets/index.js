@@ -1,4 +1,4 @@
-import card from './card.png';
+import card from './card.svg';
 import logo from './logo.svg';
 import quotes from './quotes.svg';
 import send from './Send.svg';
