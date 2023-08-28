@@ -15,13 +15,12 @@ const Footer = () => (
     >
       <div className='flex flex-col justify-start mr-10'>
         <img src={logo} alt='SND' className='w-[180px] object-contain' />
-        <p className={`${styles.paragraph} text-[16px] mt-4 max-w-[450px]`}>
-          OOO СЭНДИ СОФТ
-          <br className='sm:block hidden' />
-          ИНН: 9728066148 <br className='sm:block hidden' />
-          ОГРН: 1227700349095 <br className='sm:block hidden' />
-          КПП: 772801001
-        </p>
+        <div className={`${styles.paragraph} text-[16px] mt-4`}>
+          <p>OOO СЭНДИ СОФТ</p>
+          <p>ИНН: 9728066148</p>
+          <p>ОГРН: 1227700349095</p>
+          <p>КПП: 772801001</p>
+        </div>
       </div>
       <div className='flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
         {footerLinks.map((footerlink) => (
