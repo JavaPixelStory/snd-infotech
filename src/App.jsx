@@ -3,7 +3,6 @@ import GoUp from './components/GoUp';
 import {
   Navbar,
   Hero,
-  // Stats,
   Services,
   Projects,
   HowWork,

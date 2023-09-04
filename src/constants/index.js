@@ -183,15 +183,15 @@ export const footerLinks = [
     links: [
       {
         name: 'Адрес: 117246, г. Москва, Научный проезд, д. 17, этаж 9, помещение 9-35',
-        link: 'https://www.hoobank.com/content/',
+        link: 'info@sendysoft.ru',
       },
       {
-        name: 'e-mail: sendysoft@yandex.ru',
-        link: 'sendysoft@yandex.ru',
+        name: 'e-mail: info@sendysoft.ru',
+        link: 'info@sendysoft.ru',
       },
       {
         name: 'тел.: +7 925 750 43 69',
-        link: '89776980206',
+        link: '+7 925 750 43 69',
       },
     ],
   },
