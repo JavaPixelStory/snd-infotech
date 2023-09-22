@@ -1,6 +1,6 @@
-import styles from '../style';
-import { logo } from '../assets';
-import { footerLinks } from '../constants';
+import styles from "../style";
+import { logo } from "../assets";
+import { footerLinks } from "../constants";
 
 const Footer = () => (
   <section
@@ -17,9 +17,9 @@ const Footer = () => (
         <img src={logo} alt='SND' className='w-[180px] object-contain' />
         <div className={`${styles.paragraph} text-[16px] mt-4`}>
           <p>OOO СЭНДИ СОФТ</p>
-          <p>ИНН: 9728066148</p>
-          <p>ОГРН: 1227700349095</p>
-          <p>КПП: 772801001</p>
+          <p>ИНН: 4345527123</p>
+          <p>ОГРН: 1234300006820</p>
+          <p>КПП: 434501001</p>
         </div>
       </div>
       <div className='flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
@@ -32,8 +32,8 @@ const Footer = () => (
               {footerlink.links.map((link, index) => (
                 <li
                   key={link.name}
-                  className={`font-sndLight text-[16px] leading-[24px] text-dimWhite max-w-[300px] ${
-                    index !== footerlink.links.length - 1 ? 'mb-4' : 'mb-0'
+                  className={`font-sndLight text-[16px] leading-[24px] text-dimWhite max-w-[190px] ${
+                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
                   {link.name}
